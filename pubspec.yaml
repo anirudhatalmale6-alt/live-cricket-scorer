@@ -1,0 +1,31 @@
+name: live_cricket_scorer
+description: "A cross-platform live cricket scoring application with real-time updates, player statistics, and match scheduling."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # State management
+  provider: ^6.1.2
+
+  # Local storage
+  shared_preferences: ^2.2.3
+
+  # Date/time formatting
+  intl: ^0.19.0
+
+  # Icons
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
